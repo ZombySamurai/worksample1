@@ -1,0 +1,17 @@
+<?php
+
+// Inhalt festlegen
+
+$inhalt = "Ich bin dein Sofa!"
+
+// Cookie erzeugen
+setcookie("cook_first_one",$inhalt.time()+600);
+
+// Prüfen
+if (!$firstone) {
+echo "Cookie ist nicht vorhanden!";
+} else {
+echo $cook_first_one;
+}
+
+?>
